@@ -1,0 +1,28 @@
+.card {
+    width: 400px;
+    height: 55vh;
+    display: block;
+    margin: 0 auto;
+    background-color: aqua;
+    text-align: center;
+}
+
+.card>img {
+    display: block;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.buttons {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.buttons>button {
+    font-weight: 600;
+    font-family:'Courier New', Courier, monospace;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
